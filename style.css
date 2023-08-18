@@ -172,10 +172,13 @@ html {
 }
 @media (max-width: 666px) 
 {
+    .schild
+    {
+        margin-left: 0px;
+    }
     .schild a
     {
         font-size: 13px;
-        margin-left: -10px;
     }
 }
 .third
