@@ -1,0 +1,563 @@
+body 
+{
+    font-family: 'Montserrat', sans-serif;
+}
+@media (max-width: 666px) 
+{
+  html, body
+  {
+    overflow-x: hidden;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+.main ul
+{
+    display: flex;
+    list-style-type: none;
+    float: right;
+    padding: 10px;
+
+}
+.main ul li 
+{
+    margin-left: 20px;
+}
+
+.main a
+{
+    text-decoration: none;
+}
+/* Add this CSS to your existing styles */
+
+/* Hide the checkbox */
+#check {
+    display: none;
+}
+
+/* Style the label to resemble the bar icon */
+#checkbtn {
+    display: block;
+    float: right;
+    line-height: 80px;
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer; /* Add cursor pointer for interaction */
+}
+
+/* Hide the navigation menu by default */
+nav ul {
+    display: none;
+    flex-direction: column;
+    padding: 0;
+}
+
+/* Display the navigation menu when checkbox is checked */
+#check:checked ~ ul {
+    display: block;
+    left: 0;
+}
+/* Remove unnecessary repeated media query */
+@media (max-width: 666px) {
+    nav {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 11111;
+        margin-right: 20px;
+        height: 80px;
+        background: orangered;
+    }
+    nav ul {
+        width: 100%;
+        height: 70vh;
+        background-image: linear-gradient(to bottom, #1273b4, #0169af, #005faa, #0055a4, #004b9e, #1847a2, #2943a4, #393da6, #553ab0, #7034b9, #8b27be, #a707c1);
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        transition: 0.9s;
+    }
+    nav ul li {
+        display: block;
+        text-align: center;
+        line-height: 40px;
+        margin: 10px;
+        font-size: 20px;
+        
+    }
+    ul li a
+    {
+        color: red;
+    }
+}
+/* Other styles for your navigation */
+/* ... */
+
+.first img
+{
+    width: 60px;
+}
+.first ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.first a
+{
+    text-decoration: none;
+}
+.second
+{
+    background-image: url('sebastian-svenson-LpbyDENbQQg-unsplash.jpg');
+    background-size: cover;
+   
+}
+.second img
+{
+    width: 90px;
+    margin-left: 210px;
+}
+.second h1
+{
+    font-size: 80px;
+   
+}
+.second i 
+{
+    font-size: 70px;
+}
+.second p 
+{
+    font-size: 30px;
+}
+@media (max-width: 666px) 
+{
+    .second p 
+    {
+        font-size: 27px;
+    }
+    .second h1
+    {
+        font-size: 47px;
+    }
+    .second img
+    {
+        margin-left: 85px;
+    }
+
+}
+
+.schild
+{
+    margin-left: 90px;
+}
+
+.schild a 
+{
+    border: 2px solid #13A5E2;
+    padding: 15px;
+    margin-right: 20px;
+}
+.schild i 
+{
+    font-size: 20px;
+}
+@media (max-width: 666px) 
+{
+    .schild a
+    {
+        font-size: 13px;
+    }
+}
+.third
+{
+    display: flex;
+    justify-content: center;
+    background-color: wheat;
+    padding: 30px;
+}
+.sho p 
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.sho a
+{
+    background-color: black;
+    padding: 14px;
+    color: white;
+    border: 1px solid purple;
+    box-shadow: 5px 5px  purple;
+}
+
+.show
+{
+    margin-left: 330px;
+}
+.show img
+{
+    
+    width: 150px;
+    margin-right: 40px;
+    border-radius: 50px;
+    
+}
+@media (max-width: 666px) 
+{
+    .show
+    {
+     margin-left: 0px;
+    }
+    .show img
+    {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+.fourth
+{
+    margin-left: 110px;
+}
+
+.ins
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.ins a 
+{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+@media (max-width: 666px) 
+{
+.fourth h1
+{
+    margin-left: -60px;
+}
+.ins
+{
+    margin-left: -60px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+}
+.pie
+{
+    margin-left: 10px;
+    width: 90%;
+}
+.fifth
+{
+    margin-left: 110px;
+}
+@media (max-width: 666px) 
+{
+    .wood
+    {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        overflow-y: hidden;
+    }
+    .wood::-webkit-scrollbar
+    {
+        display: none;
+    }
+    .fifth
+    {
+        margin-left: -0px;
+        
+    }
+
+}
+.wood
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.wood img
+{
+    width: 430px;
+    height: 600px;
+}
+.arriv
+{
+    margin-left: 80px;
+}
+.arriv ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.arriv a
+{
+    text-decoration: none;
+}
+@media (max-width: 666px) 
+{
+.arriv
+{
+    margin-left: 0px;
+}
+
+}
+.sixth
+{
+    display: flex;
+    overflow-y: hidden;
+    margin-left: 100px;
+    
+}
+.sixth img
+{
+    width: 300px;
+}
+.sixth p 
+{
+    margin-left: 10px;
+}
+.sixth::-webkit-scrollbar
+    {
+        display: none;
+    }
+.sixth div
+{
+    border: 2px solid transparent;
+    padding: 10px;
+    margin-right: 10px;
+}
+.sixth i.fa-heart-o 
+{
+    position: sticky;
+    left: 290px;
+    top: 40px;
+    z-index: 1; 
+}
+
+@media (max-width: 666px) 
+{
+    .sixth
+    {
+        margin-left: 0px;
+    }
+
+}
+.seven
+{
+    margin-left: 120px;
+}
+@media (max-width: 666px) 
+{
+    .seven
+    {
+        margin-left: 0px;
+    }
+
+}
+
+.mi
+{
+    display: flex;
+    overflow-y: hidden;
+    margin-right: 180px;
+}
+.mi img
+{
+    width: 300px;
+}
+.mi::-webkit-scrollbar
+    {
+        display: none;
+    }
+.mi div
+{
+    margin-right: 10px;
+}
+.mi p 
+{
+    font-size: 14px;
+}
+@media (max-width: 666px) 
+{
+ .mi 
+ {
+
+    width: 100%;
+ }
+
+}
+.best
+{
+    margin-left: 80px;
+}
+.best ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+@media (max-width: 666px) 
+{
+    .best
+    {
+        margin-left: -20px;
+    }
+
+}
+.best a
+{
+    text-decoration: none;
+}
+.eight
+{
+    display: flex;
+    overflow-y: hidden;
+    margin-left: 110px;
+    
+}
+.eight img
+{
+    width: 300px;
+}
+.eight p 
+{
+    margin-left: 10px;
+}
+.eight::-webkit-scrollbar
+    {
+        display: none;
+    }
+.eight div
+{
+    border: 2px solid transparent;
+    padding: 10px;
+    margin-right: 10px;
+}
+.eight i.fa-heart-o 
+{
+    position: sticky;
+    left: 290px;
+    top: 40px;
+    z-index: 1; 
+}
+@media (max-width: 666px) 
+{
+    .eight
+    {
+        margin-left: 0px;
+    }
+
+}
+.nine
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 120px;
+ 
+
+}
+@media (max-width: 666px) 
+{
+
+    .nine
+    {
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+.ten 
+{
+
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    padding: 10px;
+}
+.ten p 
+{
+    font-size: 30px;
+}
+.ten a
+{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    box-shadow: 6px 4px #FE0817;
+}
+@media (max-width: 666px) 
+{
+
+    .ten p 
+    {
+        font-size: 10px;
+    }
+    .ten a
+    {
+        margin-left: 10px;
+    }
+}
+
+.eleven
+{
+    display: flex;
+    margin-left: 200px;
+}
+.eleven a
+{
+    text-decoration: none;
+}
+.eleven div
+{
+    margin-right: 50px;
+}
+@media (max-width: 666px) 
+{
+    .eleven
+    {
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+
+}
+.twelve
+{
+    display: flex;
+    justify-content: center;
+
+}
+.thirteen
+{
+    display: flex;
+    justify-content: center;
+}
+.sems 
+{
+    background-color: #242424;
+    color: white;
+}
+.sems a
+{
+    color: white;
+    text-decoration: none;
+}
+.bla
+{
+    background-color: wheat;
+    padding: 40px;
+}
