@@ -72,7 +72,7 @@ html {
     }
     nav ul {
         width: 100%;
-        height: 70vh;
+        height: 80vh;
         background-image: linear-gradient(to bottom, #1273b4, #0169af, #005faa, #0055a4, #004b9e, #1847a2, #2943a4, #393da6, #553ab0, #7034b9, #8b27be, #a707c1);
         position: fixed;
         top: 80px;
@@ -175,6 +175,7 @@ html {
     .schild a
     {
         font-size: 13px;
+        margin-left: -10px;
     }
 }
 .third
