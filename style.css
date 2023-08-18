@@ -15,6 +15,7 @@ body
 html {
   scroll-behavior: smooth;
 }
+
 .main ul
 {
     display: flex;
@@ -32,14 +33,14 @@ html {
 {
     text-decoration: none;
 }
-/* Add this CSS to your existing styles */
 
-/* Hide the checkbox */
+
+
 #check {
     display: none;
 }
 
-/* Style the label to resemble the bar icon */
+
 #checkbtn {
     display: block;
     float: right;
@@ -47,22 +48,17 @@ html {
     margin-right: 10px;
     font-size: 30px;
     color: white;
-    cursor: pointer; /* Add cursor pointer for interaction */
+
 }
 
-/* Hide the navigation menu by default */
-nav ul {
-    display: none;
-    flex-direction: column;
-    padding: 0;
-}
 
-/* Display the navigation menu when checkbox is checked */
+
+
 #check:checked ~ ul {
     display: block;
     left: 0;
 }
-/* Remove unnecessary repeated media query */
+
 @media (max-width: 666px) {
     nav {
         width: 100%;
@@ -95,9 +91,13 @@ nav ul {
     {
         color: red;
     }
+    
+    nav ul {
+        display: none;
+        flex-direction: column;
+        padding: 0;
+    }
 }
-/* Other styles for your navigation */
-/* ... */
 
 .first img
 {
