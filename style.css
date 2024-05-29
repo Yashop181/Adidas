@@ -404,8 +404,10 @@ html {
 {
  .mi 
  {
+    display: flex;
+    margin-left: 10px;
 
-    width: 100%;
+    width: 80%;
  }
 
 }
